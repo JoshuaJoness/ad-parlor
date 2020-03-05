@@ -6,10 +6,11 @@ import facebook from './facebook.svg'
 import instagram from './instagram.svg'
 import youtube from './display-youtube.svg'
 import logo from './hills-logo.svg'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav />
       <div style={{display:'grid', gridTemplateColumns:'55% 45%', marginTop: 120, marginLeft: 80}}>
         <div style={{color:'#34495E'}}>
